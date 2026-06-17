@@ -1,0 +1,24 @@
+{
+  "name": "livesync-video-platform",
+  "version": "1.0.0",
+  "description": "A real-time video conferencing platform built with React, Node.js, Socket.IO and WebRTC.",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server"
+  },
+  "keywords": [
+    "webrtc",
+    "socket.io",
+    "video-conferencing",
+    "react",
+    "nodejs",
+    "real-time"
+  ],
+  "author": "Raj Tiwari",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
